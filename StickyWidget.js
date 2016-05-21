@@ -1,0 +1,1 @@
+$(function(){if($("#HTML3").length){var o=$("#HTML3"),t=$("#HTML3").offset().top,i=$("#HTML3").height();$(window).scroll(function(){var s=$("#footer-wrapper").offset().top-i-20,f=$(window).scrollTop();if(f>t?o.css({position:"fixed",top:75}):o.css("position","static"),f>s){var n=s-f;o.css({top:n})}})}});
